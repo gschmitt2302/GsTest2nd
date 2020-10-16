@@ -50,10 +50,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CoreLib\CoreLib.csproj">
-      <Project>{7bd41cae-bbee-419d-b0d5-4ed9703f4485}</Project>
-      <Name>CoreLib</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FrameworkLib\FrameworkLib.csproj">
       <Project>{8FF5FFCA-1E3B-4623-B40D-ED951F96E4EE}</Project>
       <Name>FrameworkLib</Name>

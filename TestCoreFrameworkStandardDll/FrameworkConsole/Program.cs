@@ -13,9 +13,12 @@ namespace FrameworkConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var y = new CoreClass1();
-            var x = new FrameworkClass1();
-            var y = new StandardClass1();
+            //var c = new CoreClass1();
+            //c.SayHello();
+            var f = new FrameworkClass1();
+            f.SayHello();
+            var s = new StandardClass1();
+            s.SayHello();
 
         }
     }

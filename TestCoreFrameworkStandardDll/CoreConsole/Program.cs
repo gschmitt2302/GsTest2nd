@@ -10,9 +10,12 @@ namespace CoreConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            var x = new CoreClass1();
-            var y = new FrameworkClass1();
-            var z = new StandardClass1();
+            var c = new CoreClass1();
+            c.SayHello();
+            var f = new FrameworkClass1();
+            f.SayHello();
+            var s = new StandardClass1();
+            s.SayHello();
         }
     }
 }
