@@ -1,3 +1,3 @@
 # GsTest
 
-Contains some simple test projects from 2020 on
+This repo contains some simple test projects written after Okt. 2020.
